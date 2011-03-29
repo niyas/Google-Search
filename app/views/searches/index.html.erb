@@ -1,0 +1,7 @@
+<div>
+<%= form_for(:user, :controller => 'searches', :action=>'index') do |f| %>
+<%= f.text_field "search" %>
+<%= f.submit %>
+<%= @search %>
+<% end %>
+</div>
